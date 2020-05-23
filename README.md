@@ -18,14 +18,13 @@ app.listen(port, function(){
 ### 기본 라우팅
 
 > app.METHOD(path, handler)
->
 > > - METHOD : http 요청 메소드로 get, post, put , delete
 > > - path : 라우터 경로
 > > - handler : 실행 될 콜백 함수
->
-> 1. :params : 라우터 파라미터, url에서 값을 얻을 수 있는 변수
 
-** api 테스팅 도구 : postman **
+> :params : 라우터 파라미터, url에서 값을 얻을 수 있는 변수
+
+**api 테스팅 도구 : postman**
 
 ### 미들 웨어
 
